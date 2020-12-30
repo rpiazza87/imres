@@ -24,4 +24,4 @@ The Figure below exemplifies well segments with low (red flag) and high (green f
 
 
 
-![Alt text](/img/Result_History.jpg?raw=true "Performance History")
+![ScreenShot](/img/Result_History.jpg?raw=true "Performance History")
