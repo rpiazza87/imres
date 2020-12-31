@@ -1,4 +1,4 @@
-# **imres - Image Resolution Classiication**
+# **Image Resolution Classification - imres**
 
 ### 1. Introduction
 
