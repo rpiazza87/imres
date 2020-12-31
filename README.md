@@ -43,7 +43,7 @@ The neural network used for this project is called Mask RCNN (*Region Based Conv
 
 ### 4. Results
 
-The third notebook of the repository **imres_train** initiates a mask rcnn network with the weights from the MSCOCO project and loads two datasets, one for training and another for validation, with the images and ground truth bounding boxes that were assigned to each of the sets by the previous splitting algorithm.
+The third notebook of the repository **imres_train** initiates a mask rcnn network based on *resnet101* with the weights from the MSCOCO project, and loads two datasets, one for training and another for validation, with the images and ground truth bounding boxes that were assigned to each of the sets by the previous splitting algorithm.
 
 Different combinations of training arrangements can be specified. The Figure below exemplifies a training sequence consisting of 4 epochs to train only the final layer of the network while adopting a larger learning rate, then 10 epochs to train all layers using a slightly smaller learning rate and, finally, 6 epochs to again train all layers now with a much smaller, more aggressive, learning rate. Data augmentation and dropout were not used in this intance. The kernel was run on Colab using GPU, with batch size of 6 (larger batches than this tended to lead to OOM errors).
 
