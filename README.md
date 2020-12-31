@@ -1,4 +1,4 @@
-# imres - Image Resolution
+# **imres - Image Resolution Classiication**
 
 ### 1. Introduction
 
@@ -27,7 +27,7 @@ This knowledge can help support decision-making with regards to image acquisitio
 Furthermore, this information can also be correlated with different parameters used for monitoring the drilling operation (Weight-On-Bit, RPM, vibration, etc.), as well as with different BHA configurations being used to drill the wells of a field; thus, it can be used to identify potential factors that cause the image quality to degrade and allow the operator to take action accordingly.
 
 
-### 3. Data
+### 3. Data & Methodology
 
 The data used in this project were the processed LWD images from 11 wells of various types (vertical, horizonal or slanted), and that crossed different lithologies (sand or carbonate reservoirs). In addition, a log of the image resolution was provided for training the neural network, indicating which well depths had low, medium and high resolution data.
 
@@ -37,11 +37,17 @@ A visual verification of the indiviual images was performed to ensure that the i
 
 XX
 
-The second notebook of the repository **imres_data_split** is design to separate the data into a training set and a validation set, while maintaining a similar proportion of low, medium and high resolution segments in each of the sets as are present in the total population of images.
+The second notebook of the repository **imres_data_split** is designed to separate the data into a training set and a validation set, while maintaining a similar proportion of low, medium and high resolution segments in each of the sets as are present in the total population of images.
+
+The neural network to be used for this project is called Mask RCNN (*Region Based Convolutional Neural Network*), which is an extension of the Faster RCNN type of networks, and seeks to perform object detection and classification through the use of masks (which may be non-orthogonal in shape). The implementation of the Mask RCNN library used in this project was developed by matterport, and is available through a github repository.
 
 
 ### 4. Results
 
+The third notebook of the repository **imres_train** initiates a mask rcnn network with the weights from the MSCOCO project and loads two datasets, one for training and another for validation, with the images and ground truth bounding boxes assigned to each set via the previous splitting algorithm.
 
+Different combinations of training arrangements can be specified. The Figure below exemplifies a training sequence consisting of 4 epochs to train only the final layer of the network, adopting a larger learning rate, then 10 epochs to train all layers using a slightly smaller learning rate and, finally, 6 epochs to again train all layers now with a much smaller learning rate. Data augmentation and dropout were not used in this intance. The kernel was run on Colab with GPU, using batch size of 6 (larger batches than this tended to lead to OOM errors).
+
+XX
 
 
