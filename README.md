@@ -12,8 +12,7 @@ Images obtained via LWD tools (*Logging While Drilling*) reduce the cost of acqu
 
 The Figure below exemplifies well segments with low (red flag) and high (green flag) quality.
 
-XX
-
+![ScreenShot](img/Image_Verification.PNG)
 
 
 ### 2. Objective
