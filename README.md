@@ -12,7 +12,7 @@ Images obtained via LWD tools (*Logging While Drilling*) reduce the cost of acqu
 
 The Figure below exemplifies well segments with low (red flag) and high (green flag) quality.
 
-![ScreenShot](img/Image_Verification.PNG)
+XX
 
 
 ### 2. Objective
@@ -34,7 +34,7 @@ The first notebook of the repository **imres_data_setup** should be used to pars
 
 A visual verification of the indiviual images was performed to ensure that the individual files were being created correctly. The Figure below depicts some of the images that were created by this script (gray scale) alongside the corresponding segment of the original image (orange scale).
 
-XX
+![ScreenShot](img/Image_Verification.PNG)
 
 The second notebook of the repository **imres_data_split** is designed to separate the data into a training set and a validation set, while maintaining a similar proportion of low, medium and high resolution segments in each of the sets as are present in the total population of images.
 
