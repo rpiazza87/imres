@@ -47,5 +47,7 @@ The third notebook of the repository **imres_train** initiates a mask rcnn netwo
 
 Different combinations of training arrangements can be specified. The Figure below exemplifies a training sequence consisting of 4 epochs to train only the final layer of the network, adopting a larger learning rate, then 10 epochs to train all layers using a slightly smaller learning rate and, finally, 6 epochs to again train all layers now with a much smaller learning rate. Data augmentation and dropout were not used in this intance. The kernel was run on Colab with GPU, using batch size of 6 (larger batches than this tended to lead to OOM errors).
 
+As a result of this training, a model has been constructed that can be used to evaluate the resolution of images acquired in new wells logged with LWD tools.
+
 ![ScreenShot](img/Result_History.PNG)
 
