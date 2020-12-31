@@ -12,7 +12,7 @@ Images obtained via LWD tools (*Logging While Drilling*) reduce the cost of acqu
 
 The Figure below exemplifies well segments with low (red flag) and high (green flag) quality.
 
-XX
+![ScreenShot](img/Image_Quality.PNG)
 
 
 ### 2. Objective
@@ -48,5 +48,4 @@ The third notebook of the repository **imres_train** initiates a mask rcnn netwo
 Different combinations of training arrangements can be specified. The Figure below exemplifies a training sequence consisting of 4 epochs to train only the final layer of the network, adopting a larger learning rate, then 10 epochs to train all layers using a slightly smaller learning rate and, finally, 6 epochs to again train all layers now with a much smaller learning rate. Data augmentation and dropout were not used in this intance. The kernel was run on Colab with GPU, using batch size of 6 (larger batches than this tended to lead to OOM errors).
 
 ![ScreenShot](img/Result_History.PNG)
-
 
