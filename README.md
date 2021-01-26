@@ -58,3 +58,10 @@ As a result of this training, a model has been constructed that can be used to m
 
 ![ScreenShot](img/Result_History.PNG)
 
+---
+
+Matrícula: 123.456.789
+
+Pontifícia Universidade Católica do Rio de Janeiro
+
+Curso de Pós Graduação *Business Intelligence Master*
