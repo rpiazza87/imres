@@ -1,7 +1,7 @@
 # **Image Resolution Classification - imres**
 
 #### Aluno: [Ralph Piazza](https://github.com/rpiazza87/imres)
-#### Orientador: [Leonardo Mendoza]
+#### Orientador: Leonardo Mendoza
 
 ---
 
@@ -60,7 +60,7 @@ As a result of this training, a model has been constructed that can be used to m
 
 ---
 
-Matrícula: 123.456.789
+Matrícula: 192.190.073
 
 Pontifícia Universidade Católica do Rio de Janeiro
 
