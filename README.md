@@ -1,11 +1,15 @@
-# **Image Resolution Classification - imres**
+# **Image Resolution Classification**
 
-#### Aluno: [Ralph Piazza](https://github.com/rpiazza87/imres)
+#### Aluno: [Ralph Piazza](https://github.com/rpiazza87)
 #### Orientador: Leonardo Mendoza
 
 ---
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
+
+- [Link para o código](https://github.com/rpiazza87/imres).
+
+---
 
 ### 1. Introduction
 
